@@ -1,3 +1,7 @@
+/**
+ * Main is the starting point of c code
+ * Print a line without the printf function
+ */
 #include <stdio.h>
 int main(void)
 {
