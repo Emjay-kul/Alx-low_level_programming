@@ -1,7 +1,7 @@
 /**
-  * Program to print a line without the printf function
- *Return : always 0
- * main -> print a value to the console
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
  */
 
 #include <stdio.h>
