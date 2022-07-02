@@ -1,10 +1,11 @@
 /**
-  * Pogram to print a line without the printf function
+  * Program to print a line without the printf function
+ *Return : always 0
+ * main -> print a value to the console
  */
+
 #include <stdio.h>
-/**
- * main-function declaration
- */
+
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
