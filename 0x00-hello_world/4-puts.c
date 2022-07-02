@@ -2,15 +2,15 @@
   * Pogram to print a line without the printf function
  */
 #include <stdio.h>
+/**
+ * main-function declaration
+ */
 int main(void)
-	/**
-	 * main function declaration
-	 */
 {
 	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
 	/**
-	 * Program has a return value of 0
+	 * Return: 0
 	 */
 }
 
