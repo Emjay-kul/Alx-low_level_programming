@@ -5,8 +5,8 @@
  * Return: Always 0 (success)
  */
 int main(void)
-putchar()
 {
+	char putchar()
 	for(int x = 'A'; x <= 'Z'; x++)
 	{
 		putchar(tolower(x));
