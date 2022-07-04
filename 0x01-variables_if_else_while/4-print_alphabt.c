@@ -15,11 +15,11 @@ int main(void)
 
 		if (x == 'e')
 		{
-			continue;
+			break;
 		}
 		else if (x == 'q')
 		{
-			continue;
+			break;
 		}
 		else
 			putchar(lower);
@@ -27,8 +27,6 @@ int main(void)
 	}
 
 	putchar('\n');
-
-	putchar('a');
 
 	return (0);
 }
