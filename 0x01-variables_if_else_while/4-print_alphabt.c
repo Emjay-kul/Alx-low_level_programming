@@ -28,5 +28,7 @@ int main(void)
 
 	putchar('\n');
 
+	putchar('a');
+
 	return (0);
 }
