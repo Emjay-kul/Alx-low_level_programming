@@ -15,11 +15,7 @@ int main(void)
 
 		putchar(lower);
 
-		if (x == 'e')
-		{
-			continue;
-		}
-		else if (x == 'q')
+		if ((x == 'e') || (x == 'q'))
 		{
 			continue;
 		}
