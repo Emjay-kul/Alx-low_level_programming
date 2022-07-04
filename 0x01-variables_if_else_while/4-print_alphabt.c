@@ -13,7 +13,7 @@ int main(void)
 	{
 		int lower = tolower(x);
 
-		while ((x == 'e') || (x == 'q'))
+		while (x == 'e')
 		{
 			break;
 		}
