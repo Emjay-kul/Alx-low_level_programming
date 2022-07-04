@@ -15,10 +15,10 @@ int main(void)
 
 		while ((x == 'e') || (x == 'q'))
 		{
-			continue;
+			break;
 		}
-		else
-			putchar(lower);
+
+		putchar(lower);
 
 	}
 
