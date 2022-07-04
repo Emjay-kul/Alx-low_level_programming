@@ -15,9 +15,13 @@ int main(void)
 
 		putchar(lower);
 
-		putchar(upper);
+	}
+	for (x = 'A'; x <= 'Z'; x++)
+	{
+		putchar(x);
 
 	}
+
 	putchar('\n');
 
 	return (0);
