@@ -17,7 +17,7 @@ int main(void)
 
 		if ((x == 'e') || (x == 'q'))
 		{
-			continue;
+			break;
 		}
 
 	}
