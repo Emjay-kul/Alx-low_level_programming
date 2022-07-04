@@ -13,11 +13,10 @@ int main(void)
 	{
 		int lower = tolower(x);
 
-		if (x == 'e')
+		if ((x == 'E') || (x == 'Q'))
 		{
 			continue;
 		}
-
 		putchar(lower);
 
 	}
