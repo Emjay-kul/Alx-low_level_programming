@@ -13,9 +13,9 @@ int main(void)
 	{
 		int lower = tolower(x);
 
-		while (x == 'e')
+		if (x == 'e')
 		{
-			break;
+			continue;
 		}
 
 		putchar(lower);
