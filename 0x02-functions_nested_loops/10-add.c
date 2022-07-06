@@ -3,13 +3,13 @@
 /**
  * add - function that adds two integers
  *
- * @a: parameter
+ * @num1: parameter
  *
- * @b: parameter
+ * @num2: parameter
  *
  * Return: the sum of both int
  */
-int add(a, b)
+int add(num1, num2)
 {
-	return (a + b);
+	return (num1 + num2);
 }
