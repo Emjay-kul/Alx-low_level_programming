@@ -3,10 +3,10 @@
 #include <ctype.h>
 
 /**
- * _islower - function that checks if a 
+ * _islower - function that checks if a
  * character is lowercase
  *
- *int c - parameter for function is_lower
+ * c - parameter for function is_lower
  *
  * Return: 1 if true, 0 if false
  */
