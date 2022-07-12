@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * _puts2 - prints a string to stdout
+ * puts2 - prints a string to stdout
  *
  * @str: character value
  *
