@@ -7,7 +7,7 @@
  *
  * Return: Always 0
  */
-void _puts2(char *str)
+void puts2(char *str)
 {
 	int len = 0;
 	int index = 0;
