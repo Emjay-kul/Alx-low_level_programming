@@ -28,10 +28,8 @@ char *rot13(char *s)
 				s[i] = end[j];
 				break;
 			}
-
 		}
 		i++;
 	}
 	return (s);
 }
- 
