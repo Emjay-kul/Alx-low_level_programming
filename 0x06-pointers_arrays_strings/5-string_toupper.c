@@ -8,13 +8,18 @@
  */
 char *string_toupper(char *s)
 {
-	int i = 0;
+	int i, k;
+	char l[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	char j;
 
-	while(*(s + i))
+	for (i = 0; s[i] != '\0'; i++)
 	{
-		if (*(s + i) >= 'a' && *(s + i) <= 'z')
-			*(s + i) -= 'a' - 'A';
-		i++;
+		k = 0;
+		for (j = 'a'; j <= 'z'; j++; k++)
+		{
+			if (s1[i] = j)
+				s1[i] = l[k];
+		}
 	}
 	return (s);
 }
