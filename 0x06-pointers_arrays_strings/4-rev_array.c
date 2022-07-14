@@ -2,24 +2,25 @@
 /**
  * reverse_array - reverses array elements
  *
- * @a: int pointer
+ * @a: int array
  *
- * @n: int
+ * @n: no of elements in a
  *
  * Return: Always 0
  */
 void reverse_array(int *a,int n)
 {
-	int i;
-	int aux[n];
+	int i = 0;
+	int aux;
 	
 	
 	n = n - 1;
 
-	for (i = 0; i <= n; i++)
+	while (i <= n)
 	{
-		aux[n - i] = a[i];
+		aux = a[i];
+		a[i++] = a[n];
+		a[n--] = aux;
+		i++;
 	}
-	for (i = 0; i <= n; i++)
-		a[i] = aux[i];
 }
