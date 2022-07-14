@@ -8,18 +8,15 @@
  */
 char *string_toupper(char *s)
 {
-	int i, k;
-	char l[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-	char j;
+	int i = 0;
 
-	for (i = 0; s[i] != '\0'; i++)
+	while(*(s + i) != '\0')
 	{
-		k = 0;
-		for (j = 'a'; j <= 'z'; j++; k++)
+		if (*(s + i) != '\0')
 		{
-			if (s1[i] = j)
-				s1[i] = l[k];
+			if (*(s + i) >= 97 && *(s + i) <= 122)
+				*(s + i) = *(s + i) - ' ';
+			i++;
 		}
-	}
 	return (s);
 }
