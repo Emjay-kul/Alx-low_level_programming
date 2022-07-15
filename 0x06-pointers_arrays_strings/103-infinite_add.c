@@ -44,8 +44,10 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 		i++;
 	while (n2[j] != 0)
 		j++;
+
 	i--;/* C */
 	j--;
+
 	if(i > size_r || j > size_r)/* D */
 		return (0);
 	for ( ; k < size_r; i--, j--, k++)/* E */
@@ -62,8 +64,10 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 	}
 	if (i >= 0 || j >= 0 || sum > 0)/* J */
 		return (0);
+
 	r[k] = '\0';/* K */
 	k--;
+
 	for ( ; begin < k; k--, begin++)/* I */
 	{
 		swap = r[k];
