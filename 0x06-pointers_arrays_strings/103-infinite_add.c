@@ -32,7 +32,9 @@
  */
 char *infinite_add(char *n1, char *n2, char *r, int size_r)
 {
-	int i = 0, j = 0, k = 0;
+	int i = 0;
+	int j = 0;
+	int k = 0;
 	int sum = 0;
 	int tens = 0;
 	int begin = 0;
