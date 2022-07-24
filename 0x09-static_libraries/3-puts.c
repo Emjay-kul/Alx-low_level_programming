@@ -3,14 +3,14 @@
 /**
  * _puts - prints a string to stdout
  *
- * @str: character value
+ * @s: character value
  *
  * Return: Always 0
  */
-void _puts(char *str)
+void _puts(char *s)
 {
-	while (*str)
-		putchar(*str++);
+	while (*s)
+		putchar(*s++);
 
 	putchar('\n');
 
