@@ -2,14 +2,15 @@
 /**
  * main - entry point of the program
  *
+ * @argc: argument count
+ *
+ * @argv: argument array
+ *
  * Return: Always 0
  */
-void main(int argc, char *argv[])
+int main(int argc, char *argv[])
 {
-	int i;
-	for (i = 0; i < argc; i++)
-	{
-		printf("%s", argv[i]);
-	}
-	printf("\n");
+	printf("%s\n", argv[argc * 0]);
+
+	return (0);
 }
