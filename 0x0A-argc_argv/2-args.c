@@ -1,19 +1,19 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * main - program that prints no. of arguments passed to it
+ * main - program that prints all arguments passed to it
  *
- * @argc: argument count
+ * @argc: count of command line arguments
  *
  * @argv: argument array
  *
- * Return: No. of arguments
+ * Return: 0
  */
 int main(int argc, char *argv[])
 {
 	int i;
 
-	for(i = 0; i < argc; i++)
+	for (i = 0; i < argc; i++)
 		printf("%s\n", argv[i]);
 
 	return (0);
