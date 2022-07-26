@@ -9,7 +9,7 @@
  *
  * Return: No. of arguments
  */
-int main(__attribute__((unused)) int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	int i;
 
