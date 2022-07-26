@@ -19,9 +19,7 @@ int main(int argc, char *argv[])
 	char *ptr;
 
 	if (argc == 1)
-	{
 		printf("%d\n", none);
-	}
 	else
 	{
 		sum = 0;
