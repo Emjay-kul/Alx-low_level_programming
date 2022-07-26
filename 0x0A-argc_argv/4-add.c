@@ -15,11 +15,10 @@
 int main(int argc, char *argv[])
 {
 	int i, j, length, sum;
-	int none = 0;
 	char *ptr;
 
 	if (argc == 1)
-		printf("%d\n", none);
+		printf("0\n");
 	else
 	{
 		sum = 0;
