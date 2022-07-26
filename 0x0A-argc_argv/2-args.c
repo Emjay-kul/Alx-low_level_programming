@@ -1,0 +1,22 @@
+#include "main.h"
+#include <stdio.h>
+/**
+ * main - program that prints no. of arguments passed to it
+ *
+ * @argc: argument count
+ *
+ * @argv: argument array
+ *
+ * Return: No. of arguments
+ */
+int main(__attribute__((unused)) int argc, char *argv[])
+{
+	int i;
+
+	for(i = 0; i < argc; i++)
+	{
+		printf("%s\n", argv[i]);
+	}
+
+	return (0);
+}
