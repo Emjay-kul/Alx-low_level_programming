@@ -6,9 +6,9 @@
  *
  * @b: number that iterates from 1 to n
  *
- * Return: on success 1 
+ * Return: on success 1
  *
- * On error, -1 is returned, and error is set 
+ * On error, -1 is returned, and error is set
  */
 int sqrt2(int a, int b)
 {
