@@ -26,7 +26,7 @@ int prime2(int a, int b)
  *
  * Return: 1 if n is prime
  */
-int 1s_prime_number(int n)
+int is_prime_number(int n)
 {
 	if (n <= 1)
 		return (0);
