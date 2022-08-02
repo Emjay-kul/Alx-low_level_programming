@@ -3,11 +3,8 @@
 #include <stdio.h>
 /**
  * argstostr - converts parameters to strinhg
- *
  * @ac: argument count
- *
  * @av: argument vector
- *
  * Return: string
  */
 char *argstostr(int ac, char **av)
@@ -17,7 +14,6 @@ char *argstostr(int ac, char **av)
 
 	if (ac == 0 || av == NULL)
 		return (NULL);
-
 	while (i < ac)
 	{
 		while (av[i][j])
@@ -25,31 +21,24 @@ char *argstostr(int ac, char **av)
 			ch++;
 			j++;
 		}
-
 		j = 0;
 		i++;
 	}
-
 	s = malloc((sizeof(char) * ch) + ac + 1);
-
 	i = 0;
 	while (av[i])
 	{
-
 		while (av[i][j])
 		{
 			s[k] = av[i][j];
 			k++;
 			j++;
 		}
-
 		s[k] = '\n';
-
 		j = 0;
 		k++;
 		i++;
 	}
-
 	k++;
 	s[k] = '\0';
 	return (s);
