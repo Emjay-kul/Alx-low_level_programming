@@ -3,7 +3,7 @@
 /**
  * array_iterator - function that prints out all contents in the array
  *
- * @array: array being passed 
+ * @array: array being passed
  *
  * @size: size of the array i.e no. of indexes
  *
