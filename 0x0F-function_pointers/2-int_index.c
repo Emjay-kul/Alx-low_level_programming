@@ -1,7 +1,7 @@
-#include <stddion.h>
+#include <stdio.h>
 #include "function_pointers.h"
 /**
- * int_index - searches the array for  matching values 
+ * int_index - searches the array for  matching values
  *
  * @array: array being passed in
  *
@@ -31,4 +31,8 @@ int int_index(int *array, int size, int (*cmp)(int))
 
 	return (-1);
 }
+
+
+
+
 
