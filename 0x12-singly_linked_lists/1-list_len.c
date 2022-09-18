@@ -1,4 +1,7 @@
 #include "lists.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 /**
  * list_len -gives no of elements in a linked list
  * @h: data type pointer of struct
@@ -6,14 +9,12 @@
  */
 size_t list_len(const list_t *h)
 {
-	const list_t *tmp;
-	size_t mode = 0;
+	int count = 0;
 
-	tmp = h;
-	while (tmp != NULL)
+	while (h)
 	{
-		tmp = tmp->next;
-		node++;
+		count++;
+		h = h->next;
 	}
-	return (node);
+	return (count);
 }
